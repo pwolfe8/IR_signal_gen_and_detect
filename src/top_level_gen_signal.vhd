@@ -58,8 +58,9 @@ begin
     led <= sw; -- map switch code to leds above it
     JA_pin1 <= out_signal; -- map output signal to JA pin1
 
-    process ( clk, reset ) begin -- read & store switches after reset
-        if ( rising_edge(clk) and reset='1' ) then
+    -- read switches on osc_clk because clk might not be initialized on reset yet
+    process ( osc_clk, reset ) begin -- read & store switches after reset
+        if ( rising_edge(osc_clk) and reset='1' ) then
             three_bit_code <= sw;
         end if;
     end process;
@@ -76,5 +77,5 @@ begin
             out_signal=>out_signal,
             done=>led15
         );
-    
+
 end top_level_gen_signal_arch;
