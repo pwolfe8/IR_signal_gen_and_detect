@@ -1,0 +1,6 @@
+#modelsim stuff#
+work/
+*.ini
+*.opt
+*.wlf
+
