@@ -7,40 +7,40 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/Users/pwolf/OneDrive/Hardware_Team_stuff/FPGA_ir_decode
+Z0 dC:/Users/pwolf/OneDrive/ECE6276_DSP_Hardware/hwteam/IR_generate_code
 Egen_signal
-Z0 w1509432137
-Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z4 dC:/Users/pwolf/OneDrive/ECE6276_DSP_Hardware/hwteam/IR_generate_code
+Z1 w1509437464
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
 Z5 8C:/Users/pwolf/OneDrive/ECE6276_DSP_Hardware/hwteam/IR_generate_code/src/gen_signal.vhd
 Z6 FC:/Users/pwolf/OneDrive/ECE6276_DSP_Hardware/hwteam/IR_generate_code/src/gen_signal.vhd
 l0
 L9
-VZG[=6l9AE4iYa8c2YIWI_0
+V2Q>dP`APB2_nd5RjLbO7F0
 !s100 6B`hEOeC=;CBc6LXIZiJ21
 Z7 OV;C;10.5b;63
-33
-Z8 !s110 1509433349
+32
+Z8 !s110 1509438755
 !i10b 1
-Z9 !s108 1509433349.000000
+Z9 !s108 1509438755.000000
 Z10 !s90 -reportprogress|300|-work|work|C:/Users/pwolf/OneDrive/ECE6276_DSP_Hardware/hwteam/IR_generate_code/src/gen_signal.vhd|
 Z11 !s107 C:/Users/pwolf/OneDrive/ECE6276_DSP_Hardware/hwteam/IR_generate_code/src/gen_signal.vhd|
 !i113 1
 Z12 o-work work
-Z13 tExplicit 1 NoCoverage 1 CvgOpt 0
+Z13 tExplicit 1 CvgOpt 0
 Agenerate_code_arch
-R1
 R2
 R3
-Z14 DEx4 work 10 gen_signal 0 22 ZG[=6l9AE4iYa8c2YIWI_0
+R4
+Z14 DEx4 work 10 gen_signal 0 22 2Q>dP`APB2_nd5RjLbO7F0
 l49
 L23
-V?7UN;kY[;RG6f@I=@?f5>0
+V0SjVNNP6=g=@a;Hab]ZD22
 !s100 ]OX3e;Yog@jY4[0MIhazU0
 R7
-33
+32
 R8
 !i10b 1
 R9
@@ -50,22 +50,22 @@ R11
 R12
 R13
 Etb_gen_signal
-Z15 w1509433365
-R1
+Z15 w1509439816
 R2
 R3
 R4
+R0
 Z16 8C:/Users/pwolf/OneDrive/ECE6276_DSP_Hardware/hwteam/IR_generate_code/tb/tb_gen_signal.vhd
 Z17 FC:/Users/pwolf/OneDrive/ECE6276_DSP_Hardware/hwteam/IR_generate_code/tb/tb_gen_signal.vhd
 l0
 L9
-V_[[GXgWDh0QMcD9lT2UY_3
+V=1M?LJeA7mm[MH0DA7b8l1
 !s100 eb7k1l^I^^2KFX9GbfB<`1
 R7
-33
-Z18 !s110 1509433401
+32
+Z18 !s110 1509439829
 !i10b 1
-Z19 !s108 1509433401.000000
+Z19 !s108 1509439829.000000
 Z20 !s90 -reportprogress|300|-work|work|C:/Users/pwolf/OneDrive/ECE6276_DSP_Hardware/hwteam/IR_generate_code/tb/tb_gen_signal.vhd|
 Z21 !s107 C:/Users/pwolf/OneDrive/ECE6276_DSP_Hardware/hwteam/IR_generate_code/tb/tb_gen_signal.vhd|
 !i113 1
@@ -73,16 +73,16 @@ R12
 R13
 Atb_gen_signal_arch
 R14
-R1
 R2
 R3
-Z22 DEx4 work 13 tb_gen_signal 0 22 _[[GXgWDh0QMcD9lT2UY_3
-l32
+R4
+Z22 DEx4 work 13 tb_gen_signal 0 22 =1M?LJeA7mm[MH0DA7b8l1
+l31
 L12
-V@[4dlM9eMH`jRGSJVONaT3
-!s100 GQnRkeNI[EN^4jY[mc]cj0
+Vfc=27m9TV1D7]D1O=ZzhS1
+!s100 i1C2HRQF;>MJ14Gm5bM9<2
 R7
-33
+32
 R18
 !i10b 1
 R19

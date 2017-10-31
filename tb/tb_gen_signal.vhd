@@ -13,7 +13,7 @@ architecture tb_gen_signal_arch of tb_gen_signal is
 
     -- constant definitions
     constant f_clk : positive := 7e6;
-    constant T: time := 200 ns;
+    constant T: time := 142.857143 ns;
 
     -- period values for printout
     constant T_log_0 : positive := positive(real(f_clk) * real(1.12e-3))    - 1;
@@ -21,7 +21,6 @@ architecture tb_gen_signal_arch of tb_gen_signal is
     constant T_pulse : positive := positive(real(f_clk) * real(560.0e-6))   - 1;
     constant T_start : positive := positive(real(f_clk) * real(9.0e-3))     - 1;
     constant T_space : positive := positive(real(f_clk) * real(4.5e-3))     - 1;
-    constant T_max : positive := maximum( maximum(T_log_0,T_log_1), maximum(T_space,T_start) );
 
     -- testbench signal declarations
     signal clk, rst : std_logic;

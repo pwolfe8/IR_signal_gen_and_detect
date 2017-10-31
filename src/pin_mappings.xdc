@@ -1,7 +1,7 @@
-## Clock signal #7Mhz freq (142.847ns period, 50% duty cycle)
+## The oscillator clock is 100MHz. after which a PLL will scales to 7Mhz (142.847ns period, 50% duty cycle)
 set_property PACKAGE_PIN W5 [get_ports osc_clk]							
     set_property IOSTANDARD LVCMOS33 [get_ports osc_clk]
-    create_clock -add -name sys_clk_pin -period 142.857143 -waveform {0 71.4285714} [get_ports osc_clk]
+    create_clock -add -name sys_clk_pin -period 10 -waveform {0 5} [get_ports osc_clk]
 
 # writing to flash settings for fast load time
 set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design]
